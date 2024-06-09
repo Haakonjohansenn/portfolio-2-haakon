@@ -644,3 +644,21 @@ footer p {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-family: var(--secondary-font);
 }
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
